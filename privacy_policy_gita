@@ -1,0 +1,67 @@
+# Privacy Policy — Gita Daily
+
+**Last updated: July 2026**
+
+This privacy policy explains how Gita Daily ("the app") handles information.
+
+## Summary
+
+Gita Daily is designed to work entirely on your device. It does not have a
+backend server, does not collect analytics, and does not share any
+information with the developer or any third party except when you
+explicitly choose to use the optional "ask about a problem" feature.
+
+## Information the app stores on your device
+
+- **Daily verse and saved verses**: The full Bhagavad Gita verse dataset is
+  bundled inside the app itself. Verses you bookmark ("save") are stored
+  locally on your device only.
+- **AI provider API keys (optional)**: If you choose to use the "ask about
+  a problem" feature, you may enter an API key for Claude (Anthropic),
+  Gemini (Google), or ChatGPT (OpenAI). This key is stored only on your
+  device, encrypted via the Android Keystore system (EncryptedSharedPreferences).
+  The developer never receives, stores, or has access to this key.
+
+## Information sent over the network
+
+The app makes network requests only when you use the optional "ask about a
+problem" feature, and only to the AI provider you've selected:
+
+- Your typed question/situation, plus a small set of relevant Bhagavad
+  Gita verses (for context), is sent directly from your device to the
+  provider's API (Anthropic, Google, or OpenAI — whichever you configured).
+- This request is sent using **your own API key**, billed to your own
+  account with that provider.
+- No copy of this request or its response is sent to, or stored by, the
+  developer of this app.
+
+If you do not use this feature, the app makes no network requests at all.
+
+## Third-party services
+
+When you use the "ask about a problem" feature, your request is subject to
+the respective provider's own privacy policy and terms of service:
+
+- Anthropic (Claude): https://www.anthropic.com/legal/privacy
+- Google (Gemini): https://policies.google.com/privacy
+- OpenAI (ChatGPT): https://openai.com/policies/privacy-policy
+
+## Data retention and deletion
+
+- Saved verses and stored API keys remain on your device until you delete
+  them within the app's Settings screen, or uninstall the app.
+- Uninstalling the app removes all locally stored data associated with it.
+
+## Children's privacy
+
+This app is not directed at children and does not knowingly collect any
+information from children.
+
+## Changes to this policy
+
+If this policy changes, an updated version will be posted here with a
+revised "last updated" date.
+
+## Contact
+
+Questions about this policy can be directed to: [your contact email here]
